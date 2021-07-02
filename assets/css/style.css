@@ -1,0 +1,104 @@
+html{
+    scroll-behavior: smooth;
+}
+/*101*/
+nav#navigation{
+    border:2px gold solid;
+    color:red
+}
+/*100*/
+#navigation{
+    background: #333;
+    color:#fff;
+}
+a{
+    color:#fff;
+}
+#design-quality,#about1{
+    background: gold;
+}
+#satisfaction,#about2{
+    background: tomato;
+}
+#learning,#about3{
+    background: lightblue;
+    height: 30vh;
+}
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.my-list{
+    text-align: center;
+    list-style:none;
+}
+.my-list li{
+    padding-bottom: 10px;
+}
+.description{
+    width:60%;
+    margin: 0 auto;
+}
+.underline{
+    text-decoration: underline;
+}
+.tomato{
+    color:tomato
+}
+/*level:31*/
+/* h2.title.underline.gold{
+    background: rgba(0,0,0,.3);
+    color:purple
+} */
+/*30*/
+.title.underline.gold{
+    background: rgba(0,0,0,.3);
+    color:lightgreen
+}
+/*30*/
+.title.underline.gold{
+    color:lightpink
+}
+/*level:10*/
+.gold{
+    color:gold
+}
+h2{
+    color:aqua;
+}
+
+#learning p{
+    color:#333;
+}
+
+html{
+    font-size: 40px;
+}
+article{
+    font-size: 10px;
+}
+div{
+    font-size: 2em; /*20px*/
+}
+article h1{
+    font-size: 3.5em;  /*70*/ 
+}
+article p{
+    font-size: 1.6em; /*32*/
+}
+article h2{
+    font-size: 2.2em; /*44*/
+}
+article h3{
+    font-size: 2em; /* 10px article >  2em*10 =20px> 20*2= 40*/
+    font-size:2rem; /*32*/
+}
+main{
+    padding:30vh 7vh ;
+    background: url(https://source.unsplash.com/random) center/cover no-repeat;
+}
+main h1{
+    text-align: center;
+    font-size: 10vmin;
+}

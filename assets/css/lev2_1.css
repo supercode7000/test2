@@ -1,0 +1,9 @@
+.dogs li::before{
+    content:'🐶 '
+}
+.cats li::before{
+    content:'🐱 '
+}
+/* section>ul>li:first-child>ul>li:nth-child(2)>ul>li::before{
+    content:'🐱 '
+} */
