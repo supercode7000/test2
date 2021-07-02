@@ -7,3 +7,7 @@
 /* section>ul>li:first-child>ul>li:nth-child(2)>ul>li::before{
     content:'🐱 '
 } */
+
+body{
+    margin: 0;
+}
